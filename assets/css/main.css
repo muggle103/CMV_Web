@@ -2508,7 +2508,7 @@
 
 		.image.fit {
 			display: inline-block;
-			margin: 0 5em 0em 5em;
+			margin: 2em 5em 0em 2em;
 			width: 20em;
 		}
 
@@ -3569,7 +3569,7 @@
 			}
 
 				.spotlight .image.main {
-					display: block;
+					display: inline;
 					margin: 0;
 					max-height: 40vh;
 					overflow: hidden;
