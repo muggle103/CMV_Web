@@ -1572,7 +1572,6 @@
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #0ea559;
 		text-decoration: none;
 	}
@@ -2508,8 +2507,13 @@
 
 		.image.fit {
 			display: inline-block;
-			margin: 2em 5em 0em 2em;
-			width: 20em;
+			text-align: center;
+			/*margin: 2em 5em 0em 2em; */
+			height: auto;
+			width: auto;
+			text-decoration: none;
+			outline: none;
+			border: 0px;
 		}
 
 			.image.fit img {
